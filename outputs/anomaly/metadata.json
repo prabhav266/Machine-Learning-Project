@@ -1,0 +1,42 @@
+{
+  "features": [
+    "rms",
+    "std",
+    "kurtosis",
+    "skewness",
+    "peak",
+    "p2p",
+    "crest",
+    "shape",
+    "energy",
+    "spec_cent",
+    "spec_bw",
+    "spec_ent",
+    "band0",
+    "band1",
+    "band2",
+    "band3",
+    "wE0",
+    "wS0",
+    "wE1",
+    "wS1",
+    "wE2",
+    "wS2",
+    "wE3",
+    "wS3",
+    "wE4",
+    "wS4"
+  ],
+  "training_rows": 7589,
+  "training_source": "outputs\\splits\\train.csv",
+  "score_definition": "Isolation Forest decision_function; lower scores are more anomalous.",
+  "contamination": "auto",
+  "random_state": 42,
+  "training_flagged_fraction": 0.15733298194755568,
+  "training_score_quantiles": {
+    "q01": -0.100009913026998,
+    "q05": -0.03680566137838732,
+    "q50": 0.08284301434945224,
+    "q95": 0.13440667651661545
+  }
+}

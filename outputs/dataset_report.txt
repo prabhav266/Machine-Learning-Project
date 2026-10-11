@@ -1,0 +1,18 @@
+Bearing fault dataset validation report
+Dataset file: features_all_segments.csv
+Rows: 9487
+Columns including target: 27
+Numerical features: 26
+Missing cells: 0
+Exact duplicate rows: 0
+Labels observed: ['Ball_Fault', 'Inner_Race', 'Normal', 'Outer_Race']
+
+Class distribution:
+     label  count  percentage
+Inner_Race   2848       30.02
+Outer_Race   2848       30.02
+Ball_Fault   2847       30.01
+    Normal    944        9.95
+
+Note: this file contains extracted features, not raw vibration waveforms.
+Check original recording/run identifiers before choosing the final validation split.

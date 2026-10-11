@@ -1,0 +1,31 @@
+BEARING FAULT CLASSIFICATION — DATA SPLIT REPORT
+=======================================================
+Original dataset: 9487 rows
+Input features: 26
+Training rows: 7589
+Testing rows: 1898
+Test fraction: 20%
+Random state: 42
+Split method: Stratified random split
+
+TRAINING CLASS DISTRIBUTION
+-----------------------------------
+label
+Ball_Fault    2278
+Inner_Race    2278
+Normal         755
+Outer_Race    2278
+
+TEST CLASS DISTRIBUTION
+-----------------------------------
+label
+Ball_Fault    569
+Inner_Race    570
+Normal        189
+Outer_Race    570
+
+IMPORTANT LIMITATION
+-----------------------------------
+The dataset contains no recording/group identifiers.
+This is a segment-level random-split evaluation.
+Generalization to unseen recordings is not established.

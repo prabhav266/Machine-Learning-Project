@@ -1,0 +1,13 @@
+{
+  "best_parameters": {
+    "n_estimators": 500,
+    "min_samples_split": 5,
+    "min_samples_leaf": 2,
+    "max_features": "sqrt",
+    "max_depth": 40,
+    "criterion": "entropy"
+  },
+  "best_cv_macro_f1": 0.9789434705009283,
+  "test_accuracy": 0.9741833508956796,
+  "test_macro_f1": 0.9784833239560201
+}

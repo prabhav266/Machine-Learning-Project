@@ -1,0 +1,23 @@
+{
+  "original_feature_count": 26,
+  "selected_feature_count": 13,
+  "selected_features": [
+    "kurtosis",
+    "shape",
+    "spec_cent",
+    "spec_bw",
+    "spec_ent",
+    "band0",
+    "band1",
+    "band2",
+    "wS1",
+    "wE3",
+    "wS3",
+    "wE4",
+    "wS4"
+  ],
+  "cv_macro_f1_mean": 0.9721456223987271,
+  "cv_macro_f1_std": 0.0034641842239304505,
+  "test_accuracy": 0.9620653319283456,
+  "test_macro_f1": 0.9683933031171954
+}
